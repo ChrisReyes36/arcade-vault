@@ -15,6 +15,10 @@ Next.js 16.4.3 / React 19.3. Per `AGENTS.md`, this version has breaking changes 
 ## Skills
 Usa siempre /frontend-design para diseñar la interfaz de usuario.
 
+## Playwright
+
+`.playwright-screenshots/` es el directorio donde se graban todos los screenshots de Playwright (pasar `filename: ".playwright-screenshots/<nombre>.png"` al tomarlos).
+
 ## Architecture notes
 
 - App Router only (`app/`). TypeScript strict; path alias `@/*` maps to the repo root.
